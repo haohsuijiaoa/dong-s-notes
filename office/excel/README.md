@@ -1,0 +1,6 @@
+模糊匹配重复项
+
+```abhs
+=AND(A2<>"", OR(SUMPRODUCT(--(ISNUMBER(SEARCH(A2, $A$2:$A$1000))))>1, SUMPRODUCT(--(ISNUMBER(SEARCH($A$2:$A$1000, A2))*(LEN($A$2:$A$1000)>0)))>1))
+```
+
