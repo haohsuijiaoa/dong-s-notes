@@ -13,7 +13,7 @@ apt install open-vm-tools open-vm-tools-desktop -y
 ## 2，必要软件安装
 
 ```bash
-apt install vim openssh-server net-tools -y
+apt install vim openssh-server net-tools lrzsz -y
 ```
 
 ## 3，基础配置
@@ -27,4 +27,3 @@ vim /etc/ssh/sshd_config
 PermitRootLogin yes
 ...
 ```
-
